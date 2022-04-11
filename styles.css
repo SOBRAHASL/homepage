@@ -1,0 +1,28 @@
+img{
+    max-width: 75%;
+}
+.w-95{
+    width: 95%!important;
+}
+.text-justify{
+    text-align: justify!important;
+}
+.display-10 {
+    font-size: calc(1rem + 0.5vw);
+    font-weight: 300;
+    line-height: 1.2;
+}
+.link{
+    text-decoration: none!important;
+    font-weight: 400;
+}
+.bottom{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    right: auto;
+    left: auto;
+}
+th,td{
+    padding: 1.5rem 0.5rem!important;
+}

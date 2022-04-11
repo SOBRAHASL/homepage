@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--<link href="../bootstrap.css" rel="stylesheet">-->
+        <link href="../styles.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <title>My Webpage</title>
+    </head>
+    <body>
+        <nav class="bg-light py-1 mb-5">
+            <ul class="nav nav-fill">
+                <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="table.html" class="nav-link">Table</a></li>
+                <li class="nav-item"><a href="images.html" class="nav-link">Images</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+            </ul>
+        </nav>
+        <header class="text-center my-5">
+            <h1 class="display-1 my-4 p-2">Here Is A Table Sample ...</h1>
+        </header>
+        <main class="text-center">
+            <article class="w-95 my-5 mx-auto p-2">
+                <table class="table table-hover table-bordered fs-6 rounded">
+                    <thead>
+                        <th class="display-10">First column</th>
+                        <th class="display-10">Second column</th>
+                        <th class="display-10">Third column</th>
+                        <th class="display-10">forth column</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>First row</td>
+                            <td>First row</td>
+                            <td>First row</td>
+                            <td>First row</td>
+                        </tr>
+                        <tr>
+                            <td>Second row</td>
+                            <td>Second row</td>
+                            <td>Second row</td>
+                            <td>Second row</td>
+                        </tr>
+                        <tr>
+                            <td>Third row</td>
+                            <td>Third row</td>
+                            <td>Third row</td>
+                            <td>Third row</td>
+                        </tr>
+                        <tr>
+                            <td>Forth row</td>
+                            <td>Forth row</td>
+                            <td>Forth row</td>
+                            <td>Forth row</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button class="btn btn-primary py-2 px-5 mt-4">Save .PDF</button>
+            </article>
+        <footer class="bottom bg-light text-center py-4">
+            <h3 class="display-10 p-2">There Is No Copyright !!!</h3>
+            <h4 class="display-10 p-2">Created By <a class="text-primary link" href="https://sobrahasl.github.io/lifestyle" target="_blank">Soraas </a></h4>
+        </footer>
+        <script>
+            document.addEventListener("DOMContentLoaded", function(){
+                document.querySelector("button").addEventListener("click", function(){
+                    print();
+                });
+            });
+        </script>
+    </body>
+</html>
